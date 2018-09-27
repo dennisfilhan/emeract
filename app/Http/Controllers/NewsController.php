@@ -14,7 +14,6 @@ class NewsController extends Controller
      */
     public function index()
     {
-
         $response = Curl::to('https://newsapi.org/v1/articles')
                 ->withData( array(
                     'source' => 'google-news',
@@ -23,10 +22,22 @@ class NewsController extends Controller
                 ->asJsonResponse()
                 ->get();
 
-
         return view('pages.news', compact('response'));
      }
 
+    public function json()
+    {
+        $response = Curl::to('https://newsapi.org/v2/top-headlines')
+            ->withData( array(
+                //'source' => 'google-news',
+                //'sortBy' => 'top',
+                'country' => 'id',
+                'apiKey' => '53b07a7620bf43ca828ffd95184bb933' ) )
+            ->asJsonResponse()
+            ->get();
+
+        return response()->json($response);
+    }
     /**
      * Show the form for creating a new resource.
      *

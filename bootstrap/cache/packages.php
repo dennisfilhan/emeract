@@ -1,4 +1,15 @@
 <?php return array (
+  'cornford/googlmapper' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Cornford\\Googlmapper\\MapperServiceProvider',
+    ),
+    'aliases' => 
+    array (
+      'Mapper' => 'Cornford\\Googlmapper\\Facades\\MapperFacade',
+    ),
+  ),
   'fideloper/proxy' => 
   array (
     'providers' => 
@@ -44,17 +55,6 @@
     'aliases' => 
     array (
       'Alert' => 'UxWeb\\SweetAlert\\SweetAlert',
-    ),
-  ),
-  'cornford/googlmapper' => 
-  array (
-    'providers' => 
-    array (
-      0 => 'Cornford\\Googlmapper\\MapperServiceProvider',
-    ),
-    'aliases' => 
-    array (
-      'Mapper' => 'Cornford\\Googlmapper\\Facades\\MapperFacade',
     ),
   ),
 );

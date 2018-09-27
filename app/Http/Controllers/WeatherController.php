@@ -25,6 +25,19 @@ class WeatherController extends Controller
         return view('pages.weather', compact('response'));
     }
 
+    public function json($q = 'Bandung', $unit = 'c'){
+        $unit = $unit!='c'?'':'metric';
+        $response = Curl::to('http://api.openweathermap.org/data/2.5/weather')
+            ->withData( array(
+                'q' => $q,
+                'units' => $unit,
+                'APPID' => 'b465ad04a62c3d01f53fee60bf146d84'
+            ) )
+            ->asJsonResponse()
+            ->get();
+        return response()->json(["data"=>$response]);
+    }
+
     /**
      * Show the form for creating a new resource.
      *

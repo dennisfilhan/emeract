@@ -200,76 +200,76 @@
             </div>
         </div>
 
-        <div class="section section-team text-center">
-            <div class="container">
-                <h2 class="title">Here is our team</h2>
-                <div class="team">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <div class="team-player">
-                                <img src="../img/aziz.png" alt="Thumbnail Image" class="rounded-circle img-fluid img-raised">
-                                <h4 class="title">Abdul Aziz</h4>
-                                <p class="category text-primary">CTO</p>
-                                <p class="description">Chief Technology Officer - pemegang kendali tertinggi mengenai teknologi
-                                    <a href="#">links</a> .</p>
-                                <a href="#pablo" class="btn btn-primary btn-icon btn-round"><i class="fa fa-twitter"></i></a>
-                                <a href="#pablo" class="btn btn-primary btn-icon btn-round"><i class="fa fa-instagram"></i></a>
-                                <a href="#pablo" class="btn btn-primary btn-icon btn-round"><i class="fa fa-facebook-square"></i></a>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="team-player">
-                                <img src="../img/fachrul.jpg" alt="Thumbnail Image" class="rounded-circle img-fluid img-raised">
-                                <h4 class="title">Fachrul Hijriah Usman</h4>
-                                <p class="category text-primary">CEO</p>
-                                <p class="description">Chief Executive Officer - pemegang kendali dalam arah perkembangan perusahaan
-                                    <a href="#">links</a> .</p>
-                                <a href="#pablo" class="btn btn-primary btn-icon btn-round"><i class="fa fa-twitter"></i></a>
-                                <a href="#pablo" class="btn btn-primary btn-icon btn-round"><i class="fa fa-linkedin"></i></a>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="team-player">
-                                <img src="../img/eliza.jpg" alt="Thumbnail Image" class="rounded-circle img-fluid img-raised">
-                                <h4 class="title">Eliza Adira</h4>
-                                <p class="category text-primary">CFO</p>
-                                <p class="description">Chief Financial Officer - Betugas untuk memegang kendali keuangan dalam suatu perusahaan
-                                    <a href="#">links</a> .</p>
-                                <a href="#pablo" class="btn btn-primary btn-icon btn-round"><i class="fa fa-google-plus"></i></a>
-                                <a href="#pablo" class="btn btn-primary btn-icon btn-round"><i class="fa fa-youtube-play"></i></a>
-                                <a href="#pablo" class="btn btn-primary btn-icon btn-round"><i class="fa fa-twitter"></i></a>
-                            </div>
-                        </div>
-                    </div><br>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="team-player">
-                                <img src="../img/ifa.jpg" alt="Thumbnail Image" class="rounded-circle img-fluid img-raised">
-                                <h4 class="title">Rifa'ah Fadhilah</h4>
-                                <p class="category text-primary">CBAO</p>
-                                <p class="description">Chief Bisnis Analysis Officer - Bertugas untuk mengatur kendali dari model bisnis dan insfratruktur TI yang sedang dikembangkan pada perusahaan
-                                <a href="#">links</a>.</p>
-                                <a href="#pablo" class="btn btn-primary btn-icon btn-round"><i class="fa fa-google-plus"></i></a>
-                                <a href="#pablo" class="btn btn-primary btn-icon btn-round"><i class="fa fa-youtube-play"></i></a>
-                                <a href="#pablo" class="btn btn-primary btn-icon btn-round"><i class="fa fa-twitter"></i></a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="team-player">
-                                <img src="../img/dinda.jpg" alt="Thumbnail Image" class="rounded-circle img-fluid img-raised">
-                                <h4 class="title">Dhinda Putri.</h4>
-                                <p class="category text-primary">CMO</p>
-                                <p class="description">Chief Marketing Officer - Bertugas untuk memasarkan produk-produk yang dihasilkan oleh perusahaan.
-                                <a href="#">links</a>.</p>
-                                <a href="#pablo" class="btn btn-primary btn-icon btn-round"><i class="fa fa-google-plus"></i></a>
-                                <a href="#pablo" class="btn btn-primary btn-icon btn-round"><i class="fa fa-youtube-play"></i></a>
-                                <a href="#pablo" class="btn btn-primary btn-icon btn-round"><i class="fa fa-twitter"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        {{--<div class="section section-team text-center">--}}
+            {{--<div class="container">--}}
+                {{--<h2 class="title">Here is our team</h2>--}}
+                {{--<div class="team">--}}
+                    {{--<div class="row">--}}
+                        {{--<div class="col-md-4">--}}
+                            {{--<div class="team-player">--}}
+                                {{--<img src="../img/aziz.png" alt="Thumbnail Image" class="rounded-circle img-fluid img-raised">--}}
+                                {{--<h4 class="title">Abdul Aziz</h4>--}}
+                                {{--<p class="category text-primary">CTO</p>--}}
+                                {{--<p class="description">Chief Technology Officer - pemegang kendali tertinggi mengenai teknologi--}}
+                                    {{--<a href="#">links</a> .</p>--}}
+                                {{--<a href="#pablo" class="btn btn-primary btn-icon btn-round"><i class="fa fa-twitter"></i></a>--}}
+                                {{--<a href="#pablo" class="btn btn-primary btn-icon btn-round"><i class="fa fa-instagram"></i></a>--}}
+                                {{--<a href="#pablo" class="btn btn-primary btn-icon btn-round"><i class="fa fa-facebook-square"></i></a>--}}
+                            {{--</div>--}}
+                        {{--</div>--}}
+                        {{--<div class="col-md-4">--}}
+                            {{--<div class="team-player">--}}
+                                {{--<img src="../img/fachrul.jpg" alt="Thumbnail Image" class="rounded-circle img-fluid img-raised">--}}
+                                {{--<h4 class="title">Fachrul Hijriah Usman</h4>--}}
+                                {{--<p class="category text-primary">CEO</p>--}}
+                                {{--<p class="description">Chief Executive Officer - pemegang kendali dalam arah perkembangan perusahaan--}}
+                                    {{--<a href="#">links</a> .</p>--}}
+                                {{--<a href="#pablo" class="btn btn-primary btn-icon btn-round"><i class="fa fa-twitter"></i></a>--}}
+                                {{--<a href="#pablo" class="btn btn-primary btn-icon btn-round"><i class="fa fa-linkedin"></i></a>--}}
+                            {{--</div>--}}
+                        {{--</div>--}}
+                        {{--<div class="col-md-4">--}}
+                            {{--<div class="team-player">--}}
+                                {{--<img src="../img/eliza.jpg" alt="Thumbnail Image" class="rounded-circle img-fluid img-raised">--}}
+                                {{--<h4 class="title">Eliza Adira</h4>--}}
+                                {{--<p class="category text-primary">CFO</p>--}}
+                                {{--<p class="description">Chief Financial Officer - Betugas untuk memegang kendali keuangan dalam suatu perusahaan--}}
+                                    {{--<a href="#">links</a> .</p>--}}
+                                {{--<a href="#pablo" class="btn btn-primary btn-icon btn-round"><i class="fa fa-google-plus"></i></a>--}}
+                                {{--<a href="#pablo" class="btn btn-primary btn-icon btn-round"><i class="fa fa-youtube-play"></i></a>--}}
+                                {{--<a href="#pablo" class="btn btn-primary btn-icon btn-round"><i class="fa fa-twitter"></i></a>--}}
+                            {{--</div>--}}
+                        {{--</div>--}}
+                    {{--</div><br>--}}
+                    {{--<div class="row">--}}
+                        {{--<div class="col-md-6">--}}
+                            {{--<div class="team-player">--}}
+                                {{--<img src="../img/ifa.jpg" alt="Thumbnail Image" class="rounded-circle img-fluid img-raised">--}}
+                                {{--<h4 class="title">Rifa'ah Fadhilah</h4>--}}
+                                {{--<p class="category text-primary">CBAO</p>--}}
+                                {{--<p class="description">Chief Bisnis Analysis Officer - Bertugas untuk mengatur kendali dari model bisnis dan insfratruktur TI yang sedang dikembangkan pada perusahaan--}}
+                                {{--<a href="#">links</a>.</p>--}}
+                                {{--<a href="#pablo" class="btn btn-primary btn-icon btn-round"><i class="fa fa-google-plus"></i></a>--}}
+                                {{--<a href="#pablo" class="btn btn-primary btn-icon btn-round"><i class="fa fa-youtube-play"></i></a>--}}
+                                {{--<a href="#pablo" class="btn btn-primary btn-icon btn-round"><i class="fa fa-twitter"></i></a>--}}
+                            {{--</div>--}}
+                        {{--</div>--}}
+                        {{--<div class="col-md-6">--}}
+                            {{--<div class="team-player">--}}
+                                {{--<img src="../img/dinda.jpg" alt="Thumbnail Image" class="rounded-circle img-fluid img-raised">--}}
+                                {{--<h4 class="title">Dhinda Putri.</h4>--}}
+                                {{--<p class="category text-primary">CMO</p>--}}
+                                {{--<p class="description">Chief Marketing Officer - Bertugas untuk memasarkan produk-produk yang dihasilkan oleh perusahaan.--}}
+                                {{--<a href="#">links</a>.</p>--}}
+                                {{--<a href="#pablo" class="btn btn-primary btn-icon btn-round"><i class="fa fa-google-plus"></i></a>--}}
+                                {{--<a href="#pablo" class="btn btn-primary btn-icon btn-round"><i class="fa fa-youtube-play"></i></a>--}}
+                                {{--<a href="#pablo" class="btn btn-primary btn-icon btn-round"><i class="fa fa-twitter"></i></a>--}}
+                            {{--</div>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
+                {{--</div>--}}
+            {{--</div>--}}
+        {{--</div>--}}
 
         <div class="section section-team text-center" data-background-color=orange>
             <div class="container">

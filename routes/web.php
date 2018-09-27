@@ -34,3 +34,10 @@ Auth::routes();
 
 Route::get('/news', 'NewsController@index');
 Route::get('/weather', 'WeatherController@index');
+
+// API
+Route::get('/api/weather/', 'WeatherController@json');
+Route::get('/api/weather/{q}', 'WeatherController@json');
+Route::get('/api/weather/{q}/{unit}', 'WeatherController@json');
+
+Route::get('/api/news/', 'NewsController@json');
